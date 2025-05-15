@@ -7,7 +7,7 @@ from fastapi import Depends, FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
 from app.config import get_settings
-from app.models import ConversionRequest, ConversionResponse, ErrorResponse, ExchangeRatesResponse
+from app.models import ConversionRequest, ConversionResponse, ExchangeRatesResponse
 from app.services import CurrencyService
 
 # Initialize settings
