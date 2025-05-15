@@ -5,7 +5,7 @@ Service for handling currency exchange operations.
 import json
 from datetime import datetime
 from decimal import Decimal
-from typing import Dict, Optional, Tuple
+from typing import Dict, Tuple
 
 import httpx
 

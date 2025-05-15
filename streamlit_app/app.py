@@ -1,10 +1,6 @@
 """
 Streamlit application for Currency Converter frontend.
 """
-
-import time
-from decimal import Decimal
-
 import pandas as pd
 import requests
 import streamlit as st

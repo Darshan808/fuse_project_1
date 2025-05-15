@@ -2,9 +2,6 @@
 Main FastAPI application module.
 """
 
-from decimal import Decimal
-from typing import Optional
-
 import redis
 from fastapi import Depends, FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
